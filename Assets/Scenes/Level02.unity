@@ -39068,6 +39068,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: fd830aa9c71be7849b19495d8856c51e, type: 2}
+    - target: {fileID: 800736367165859627, guid: 3031496842dafbf44af3790bc83640ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832043022987162994, guid: 3031496842dafbf44af3790bc83640ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8980598129622508968, guid: 3031496842dafbf44af3790bc83640ca, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -40742,12 +40750,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.4037895
+      value: 6.53
       objectReference: {fileID: 0}
     - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.96199626
+      value: -0.46
       objectReference: {fileID: 0}
     - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40781,6 +40801,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469043, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: ae3918a914038694d852d0bb81f62473, type: 3}
     - target: {fileID: 7802045730568469043, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: m_SortingOrder
       value: 10

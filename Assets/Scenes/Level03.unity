@@ -33338,6 +33338,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 800736367165859627, guid: 3031496842dafbf44af3790bc83640ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832043022987162994, guid: 3031496842dafbf44af3790bc83640ca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8980598129622508972, guid: 3031496842dafbf44af3790bc83640ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.05
@@ -38564,12 +38572,24 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7
+      value: 6.58
       objectReference: {fileID: 0}
     - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 3.52
       objectReference: {fileID: 0}
     - target: {fileID: 7802045730568469042, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38603,11 +38623,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7802045730568469043, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: ae3918a914038694d852d0bb81f62473, type: 3}
     - target: {fileID: 7802045730568469053, guid: 155d1845a55f9044d8645fe3a5ee4187, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Scene","value":{"$content":"Menu
-        Win","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsWinningPortal","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Scene","value":{"$content":"Level04","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsWinningPortal","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []

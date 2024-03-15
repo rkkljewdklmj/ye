@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2023.2/staging' branch; Version is '2023.2.5f1 (381b4941466e) revision 3677001'; Using compiler version '193431935'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16319 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 24501 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2023.2.5f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/520238/ye
+C:/Users/harry/Downloads/ye
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63054
+50027
 -job-worker-count
-3
+2
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/520238/ye
-C:/Users/520238/ye
+Successfully changed project path to: C:/Users/harry/Downloads/ye
+C:/Users/harry/Downloads/ye
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,28 +58,28 @@ C:/Users/520238/ye
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25776] Host "[IP] 172.27.171.124 [Port] 0 [Flags] 2 [Guid] 4133403419 [EditorId] 4133403419 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21222) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [25776] Host "[IP] 172.27.171.124 [Port] 0 [Flags] 2 [Guid] 4133403419 [EditorId] 4133403419 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21222) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
-[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Player connection [23828] Host "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 941566977 [EditorId] 941566977 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-I5OFF23S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23828] Host "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 941566977 [EditorId] 941566977 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-I5OFF23S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 2
+[Physics::Module] Initialized MultithreadedJobDispatcher with 2 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 218.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 167.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.5f1 (381b4941466e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/520238/ye/Assets
+[Subsystems] Discovering subsystems at path C:/Users/harry/Downloads/ye/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
     Vendor:   NVIDIA
-    VRAM:     3949 MB
-    Driver:   31.0.15.3623
+    VRAM:     1976 MB
+    Driver:   31.0.15.4633
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -92,44 +92,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.322081 seconds.
-- Loaded All Assemblies, in 12.516 seconds
+Registered in 0.006467 seconds.
+- Loaded All Assemblies, in  0.614 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.607 seconds
-Domain Reload Profiling: 13118ms
-	BeginReloadAssembly (10045ms)
+- Finished resetting the current domain, in  0.611 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (248ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (683ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (406ms)
-	LoadAllAssembliesAndSetupDomain (1357ms)
-		LoadAssemblies (10037ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (242ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1353ms)
-			TypeCache.Refresh (1351ms)
-				TypeCache.ScanAssembly (1022ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (176ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (608ms)
+	FinalizeReload (612ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (526ms)
+		SetupLoadedEditorAssemblies (548ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (388ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,12 +148,11 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\520238\ye\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\520238\ye\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in 10.143 seconds
-Refreshing native plugins compatible for Editor in 5.04 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\harry\Downloads\ye\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\harry\Downloads\ye\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.835 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
   at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
@@ -176,148 +173,44 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.064 seconds
-Domain Reload Profiling: 14195ms
-	BeginReloadAssembly (577ms)
+- Finished resetting the current domain, in  2.119 seconds
+Domain Reload Profiling: 7943ms
+	BeginReloadAssembly (555ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (9395ms)
-		LoadAssemblies (8564ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (5128ms)
+		LoadAssemblies (5018ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1018ms)
-			TypeCache.Refresh (969ms)
-				TypeCache.ScanAssembly (884ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (233ms)
 			BuildScriptInfoCaches (37ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (4065ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2120ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3710ms)
+		SetupLoadedEditorAssemblies (1808ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (3526ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (1639ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.40 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4125 unused Assets / (1.3 MB). Loaded Objects now: 4705.
-Memory consumption went from 127.4 MB to 126.1 MB.
-Total: 30.187500 ms (FindLiveObjects: 0.706800 ms CreateObjectMapping: 1.146600 ms MarkObjects: 25.531600 ms  DeleteObjects: 2.799900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 596048.658924 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_76.asset
-  artifactKey: Guid(d6e26fc6465337e46ba2ec167747d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_76.asset using Guid(d6e26fc6465337e46ba2ec167747d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c90d544e21178960f70fe85172cd132') in 0.1997138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_97.asset
-  artifactKey: Guid(7bc8b372aeac219429e79c67168a588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_97.asset using Guid(7bc8b372aeac219429e79c67168a588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f338bbea52fe334ef2a25494c481e278') in 0.0516275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_98.asset
-  artifactKey: Guid(f2973e811bd1b2746bc1049e2001659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_98.asset using Guid(f2973e811bd1b2746bc1049e2001659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '588f47262090b27d62efabfe7c494f45') in 0.0354386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_90.asset
-  artifactKey: Guid(c399ba4c535546645b47121baa47c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_90.asset using Guid(c399ba4c535546645b47121baa47c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f548ab58cf545e1218f2b223c2c0cbe0') in 0.0364545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_81.asset
-  artifactKey: Guid(2e48158f00429f84c80bec63a8911f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_81.asset using Guid(2e48158f00429f84c80bec63a8911f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40159df8b58bf7b31ccb6f5a1546cb45') in 0.0314434 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_78.asset
-  artifactKey: Guid(593b58427b93ecf499dba31ed26c4c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_78.asset using Guid(593b58427b93ecf499dba31ed26c4c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5e9dffb0d34beafd72b10b53d99845e') in 0.0292902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_74.asset
-  artifactKey: Guid(654ab88c69ddda84882dc37eb9655fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_74.asset using Guid(654ab88c69ddda84882dc37eb9655fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36c40085fef46ec30377e9e26288aaab') in 0.034046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_82.asset
-  artifactKey: Guid(746b45b8c333e5a4da056754016156d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_82.asset using Guid(746b45b8c333e5a4da056754016156d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81a33975ae516daaea47fe321b405d1f') in 0.0301273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_93.asset
-  artifactKey: Guid(8cd7a10059a9be74cbc8d4f7f08251cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_93.asset using Guid(8cd7a10059a9be74cbc8d4f7f08251cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7cbf3ac6ce1e2867ce16882b9731fd9') in 0.0325474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_79.asset
-  artifactKey: Guid(4264db7a0b8bc5544ba7c4a11f01b6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_79.asset using Guid(4264db7a0b8bc5544ba7c4a11f01b6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cac9f0057c6c52fe2712791331319c25') in 0.030534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_75.asset
-  artifactKey: Guid(7a2e4479595172f46b21386f9a541083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_75.asset using Guid(7a2e4479595172f46b21386f9a541083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bae9fed8823d6980739439813be489fd') in 0.0343624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_100.asset
-  artifactKey: Guid(64759cc601d77f648b9046be0e728bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_100.asset using Guid(64759cc601d77f648b9046be0e728bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7024db167eb2bff77740b16337433d1') in 0.070772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_89.asset
-  artifactKey: Guid(3946b7cd80595b746bd7d25155e34070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_tiles_free2_89.asset using Guid(3946b7cd80595b746bd7d25155e34070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f25832a626caf84cfe4be78a5620e4') in 0.0406764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Unloading 4126 unused Assets / (1.0 MB). Loaded Objects now: 4706.
+Memory consumption went from 127.3 MB to 126.3 MB.
+Total: 34.020000 ms (FindLiveObjects: 1.427600 ms CreateObjectMapping: 2.076200 ms MarkObjects: 28.693100 ms  DeleteObjects: 1.822100 ms)
 
